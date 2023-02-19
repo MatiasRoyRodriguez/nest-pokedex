@@ -23,6 +23,13 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-## Stack used 
-* MongoDB
-* Nest
+5. Rebuild the database with the seed
+
+```
+http://localhost:3000/api/v2/seed
+```
+
+## Stack used
+
+- MongoDB
+- Nest
